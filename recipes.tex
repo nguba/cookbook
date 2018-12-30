@@ -1,0 +1,24 @@
+\documentclass[a4paper, 10pt, oneside]{book} % A4 paper size, default 11pt font size and oneside for equal margins
+
+\usepackage{recipes}
+\usepackage{minitoc}
+
+\begin{document}
+
+\newcommand{\plogo}{\fbox{$\mathcal{N}$}} % Generic dummy publisher logo
+\dominitoc
+
+\include{title}
+\frontmatter
+\tableofcontents
+
+\mainmatter
+
+\include{stocks}
+\include{soups}
+\include{sauces}
+\include{meat}
+\include{accompainments}
+\include{bread}
+
+\end{document}
